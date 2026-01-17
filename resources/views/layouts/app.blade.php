@@ -31,14 +31,12 @@
             </a>
           </div>
 
-          <!-- Action button -->
           <a href="{{ route('goals.create') }}" class="inline-flex items-center gap-2 rounded-lg
                               bg-gray-900 px-4 py-2 text-sm font-semibold text-white shadow-sm
                               hover:bg-gray-800
                               focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2
                               dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-white
                               dark:focus:ring-gray-200 dark:focus:ring-offset-gray-950">
-            <!-- Plus icon -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
               <path d="M10 3.75a.75.75 0 01.75.75v4.75h4.75a.75.75 0 010 1.5h-4.75v4.75a.75.75 0 01-1.5 0v-4.75H4.5a.75.75 0 010-1.5h4.75V4.5a.75.75 0 01.75-.75z" />
             </svg>
